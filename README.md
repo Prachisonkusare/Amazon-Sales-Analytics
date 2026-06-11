@@ -1,8 +1,8 @@
-\# Amazon Sales Analytics using PostgreSQL
+# Amazon Sales Analytics using PostgreSQL
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -10,137 +10,137 @@ This project analyzes Amazon sales data using PostgreSQL to derive business insi
 
 
 
-\## Dataset
+## Dataset
 
 
 
-\* Dataset: Amazon Sale Report
+* Dataset: Amazon Sale Report
 
-\* Records: 128,000+ sales transactions
+* Records: 128,000+ sales transactions
 
-\* Source: CSV file
+* Source: CSV file
 
-\* Fields include:
+* Fields include:
 
 
 
-&#x20; \* Order ID
+* Order ID
 
-&#x20; \* Order Date
+* Order Date
 
-&#x20; \* Status
+* Status
 
-&#x20; \* Category
+* Category
 
-&#x20; \* SKU
+* SKU
 
-&#x20; \* Quantity
+* Quantity
 
-&#x20; \* Amount
+* Amount
 
-&#x20; \* State
+* State
 
-&#x20; \* City
+* City
 
-&#x20; \* Fulfilment
+* Fulfilment
 
-&#x20; \* B2B Flag
+* B2B Flag
 
 
 
-\## Tools Used
+## Tools Used
 
 
 
-\* PostgreSQL
+* PostgreSQL
 
-\* SQL
+* SQL
 
-\* CSV Dataset
+* CSV Dataset
 
 
 
-\## KPIs Analyzed
+## KPIs Analyzed
 
 
 
-1\. Total Revenue
+1. Total Revenue
 
-2\. Total Orders
+2. Total Orders
 
-3\. Average Order Value
+3. Average Order Value
 
-4\. Revenue by State
+4. Revenue by State
 
-5\. Revenue by City
+5. Revenue by City
 
-6\. Best Selling Categories
+6. Best Selling Categories
 
-7\. Highest Revenue Categories
+7. Highest Revenue Categories
 
-8\. Monthly Revenue Trend
+8. Monthly Revenue Trend
 
-9\. Monthly Growth Percentage
+9. Monthly Growth Percentage
 
-10\. Order Status Analysis
+10. Order Status Analysis
 
-11\. Cancellation Rate
+11. Cancellation Rate
 
-12\. Fulfilment Analysis
+12. Fulfilment Analysis
 
-13\. B2B vs B2C Revenue Analysis
+13. B2B vs B2C Revenue Analysis
 
-14\. Top Products by Revenue
+14. Top Products by Revenue
 
-15\. Top States by Revenue Ranking
+15. Top States by Revenue Ranking
 
 
 
-\## SQL Concepts Used
+## SQL Concepts Used
 
 
 
-\* Aggregate Functions
+* Aggregate Functions
 
-\* GROUP BY
+* GROUP BY
 
-\* ORDER BY
+* ORDER BY
 
-\* Common Table Expressions (CTEs)
+* Common Table Expressions (CTEs)
 
-\* Window Functions
+* Window Functions
 
-\* RANK()
+* RANK()
 
-\* LAG()
+* LAG()
 
-\* NULL Handling using COALESCE()
+* NULL Handling using COALESCE()
 
-\* Date Functions
+* Date Functions
 
-\* Percentage Calculations
+* Percentage Calculations
 
 
 
-\## Key Insights
+## Key Insights
 
 
 
-\* Maharashtra generated the highest revenue among all states.
+* Maharashtra generated the highest revenue among all states.
 
-\* Karnataka and Telangana were among the top-performing markets.
+* Karnataka and Telangana were among the top-performing markets.
 
-\* B2C sales contributed the majority of revenue.
+* B2C sales contributed the majority of revenue.
 
-\* Monthly growth analysis identified changes in revenue trends.
+* Monthly growth analysis identified changes in revenue trends.
 
-\* Top products generated a significant portion of overall revenue.
+* Top products generated a significant portion of overall revenue.
 
-\* Order status analysis helped measure fulfilment and cancellation performance.
+* Order status analysis helped measure fulfilment and cancellation performance.
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -174,9 +174,20 @@ Amazon-Sales-Analytics/
 
 └── README.md
 
+## Dataset
+
+Due to GitHub file size limitations, the dataset has been hosted externally.
+
+Google Drive Link:
+[https://drive.google.com/your-link-here](https://drive.google.com/file/d/1aJokcf9qKQNjzBNccu9-Izh1R30hE1sy/view?usp=sharing)
+
+To reproduce the analysis:
+1. Download the dataset from the link above.
+2. Import the CSV into PostgreSQL.
+3. Execute the queries in SQL/KPI_Queries.sql.
 
 
-\## Author
+ Author
 
 
 
