@@ -179,7 +179,7 @@ Amazon-Sales-Analytics/
 Due to GitHub file size limitations, the dataset has been hosted externally.
 
 Google Drive Link:
-[https://drive.google.com/your-link-here](https://drive.google.com/file/d/1aJokcf9qKQNjzBNccu9-Izh1R30hE1sy/view?usp=sharing)
+[https://drive.google.com/file/d/1aJokcf9qKQNjzBNccu9-Izh1R30hE1sy/view?usp=sharing]
 
 To reproduce the analysis:
 1. Download the dataset from the link above.
